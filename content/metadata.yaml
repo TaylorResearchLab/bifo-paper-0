@@ -1,30 +1,106 @@
----
-title: "Manuscript Title"
-date: null  # Defaults to date generated, but can specify like '2022-10-31'.
+####################################################################################
+# bifo-paper-0 manuscript metadata
+#
+# This file is rendered by Manubot during the GitHub Actions build. Fields here
+# control the title page, byline, keywords, and author affiliations of the
+# generated HTML/PDF.
+#
+# License (per Paper 0 plan, Apr 27 2026): the manuscript will be released under
+# CC BY-NC-ND 4.0 to mirror the HSCLO Scientific Data paper. The license override
+# is applied via LICENSE.md (replaced separately in Step 4); rootstock has no
+# `license` field in metadata.yaml.
+####################################################################################
+
+title: "Biological Information Flow Ontology: A Framework for Mechanistically Constrained Propagation in Biomedical Knowledge Graphs"
+
 keywords:
-  - markdown
-  - publishing
-  - manubot
+  - biological information flow
+  - knowledge graph
+  - ontology
+  - propagation
+  - graph conditioning
+  - personalized pagerank
+  - biomedical knowledge graph
+  - mechanistic constraint
+  - admissibility
+
 lang: en-US
+
+# Optional. A 1000x1000 PNG used by social-media link previews and the Manubot
+# catalog. Leave commented out for now; we'll add a real thumbnail (likely the
+# BIFO entity-class/flow-class schema diagram) before bioRxiv submission.
+# thumbnail: content/images/thumbnail.png
+
+####################################################################################
+# Authors
+#
+# Order matches the Apr 27 2026 author-list decision:
+#   Taylor (PI, corresponding) → Ahooyi → Stear → Zhang → Simmons →
+#   Lahiri → Terry → Silverstein
+#
+# PLACEHOLDERS that need filling before bioRxiv submission:
+#   - All ORCIDs (8 of 8) — replace XXXX-XXXX-XXXX-XXXX
+#   - First names for Zhang, Lahiri, Terry
+#   - Affiliations for Zhang, Lahiri, Terry
+#   - GitHub usernames are optional but enable Manubot avatar rendering;
+#     fill if known, leave commented-out otherwise
+####################################################################################
+
 authors:
-  - github: johndoe
-    name: John Doe
-    initials: JD
-    orcid: XXXX-XXXX-XXXX-XXXX
-    twitter: johndoe
-    mastodon: johndoe
-    mastodon-server: mastodon.social
-    email: john.doe@something.com
+  - name: Deanne M. Taylor
+    initials: DMT
+    orcid: XXXX-XXXX-XXXX-XXXX  # TODO: fill ORCID
+    email: taylordm@chop.edu
     affiliations:
-      - Department of Something, University of Whatever
+      - "The Department of Biomedical and Health Informatics, The Children's Hospital of Philadelphia, Philadelphia, PA, USA"
+      - "Department of Pediatrics, University of Pennsylvania Perelman School of Medicine, Philadelphia, PA, USA"
     funders:
-      - Grant XXXXXXXX
-  - github: janeroe
-    name: Jane Roe
-    initials: JR
-    orcid: XXXX-XXXX-XXXX-XXXX
-    email: jane.roe@whatever.edu
-    affiliations:
-      - Department of Something, University of Whatever
-      - Department of Whatever, University of Something
+      - NIH Common Fund R03OD030600
+      - NIH Common Fund OT2OD030162
     corresponding: true
+    # github: deannetaylorphd  # uncomment if this is the right handle
+
+  - name: Taha Mohseni Ahooyi
+    initials: TMA
+    orcid: XXXX-XXXX-XXXX-XXXX  # TODO: fill ORCID
+    affiliations:
+      - "The Department of Biomedical and Health Informatics, The Children's Hospital of Philadelphia, Philadelphia, PA, USA"
+
+  - name: Benjamin J. Stear
+    initials: BJS
+    orcid: XXXX-XXXX-XXXX-XXXX  # TODO: fill ORCID
+    affiliations:
+      - "The Department of Biomedical and Health Informatics, The Children's Hospital of Philadelphia, Philadelphia, PA, USA"
+
+  - name: "[FIRST] Zhang"  # TODO: fill first name
+    initials: XZ           # TODO: update once first name set
+    orcid: XXXX-XXXX-XXXX-XXXX  # TODO: fill ORCID
+    affiliations:
+      - "TODO: Zhang affiliation"
+
+  - name: J. Alan Simmons
+    initials: JAS
+    orcid: XXXX-XXXX-XXXX-XXXX  # TODO: fill ORCID
+    affiliations:
+      - "Department of Biomedical Informatics, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA"
+
+  - name: "[FIRST] Lahiri"  # TODO: fill first name
+    initials: XL            # TODO: update once first name set
+    orcid: XXXX-XXXX-XXXX-XXXX  # TODO: fill ORCID
+    affiliations:
+      - "TODO: Lahiri affiliation"
+
+  - name: "[FIRST] Terry"  # TODO: fill first name
+    initials: XT           # TODO: update once first name set
+    orcid: XXXX-XXXX-XXXX-XXXX  # TODO: fill ORCID
+    affiliations:
+      - "TODO: Terry affiliation"
+
+  - name: Jonathan C. Silverstein
+    initials: JCS
+    orcid: XXXX-XXXX-XXXX-XXXX  # TODO: fill ORCID
+    affiliations:
+      - "Department of Biomedical Informatics, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA"
+    funders:
+      - NIH Common Fund OT2OD026663
+      - NIH Common Fund OT2OD026675
