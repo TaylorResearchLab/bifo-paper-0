@@ -1,7 +1,7 @@
 # Output directory containing the formatted manuscript
 
 The [`gh-pages`](https://github.com/TaylorResearchLab/bifo-paper-0/tree/gh-pages) branch hosts the contents of this directory at <https://TaylorResearchLab.github.io/bifo-paper-0/>.
-The permalink for this webpage version is <https://TaylorResearchLab.github.io/bifo-paper-0/v/3dbccbf905a52f3cafc9aa6fef16e5965dd76ccd/>.
+The permalink for this webpage version is <https://TaylorResearchLab.github.io/bifo-paper-0/v/edd5ca940379831c0e06ee6cc792e4cc1fb24145/>.
 To redirect to the permalink for the latest manuscript version at anytime, use the link <https://TaylorResearchLab.github.io/bifo-paper-0/v/freeze/>.
 
 ## Files
@@ -35,4 +35,4 @@ Verifying timestamps with the `ots verify` command requires running a local bitc
 ## Source
 
 The manuscripts in this directory were built from
-[`3dbccbf905a52f3cafc9aa6fef16e5965dd76ccd`](https://github.com/TaylorResearchLab/bifo-paper-0/commit/3dbccbf905a52f3cafc9aa6fef16e5965dd76ccd).
+[`edd5ca940379831c0e06ee6cc792e4cc1fb24145`](https://github.com/TaylorResearchLab/bifo-paper-0/commit/edd5ca940379831c0e06ee6cc792e4cc1fb24145).
