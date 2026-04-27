@@ -1,14 +1,26 @@
 ---
-title: Manuscript Title
+title: 'Biological Information Flow Ontology: A Framework for Mechanistically Constrained Propagation in Biomedical Knowledge Graphs'
 keywords:
-- markdown
-- publishing
-- manubot
+- biological information flow
+- knowledge graph
+- ontology
+- propagation
+- graph conditioning
+- personalized pagerank
+- biomedical knowledge graph
+- mechanistic constraint
+- admissibility
 lang: en-US
 date-meta: '2026-04-27'
 author-meta:
-- John Doe
-- Jane Roe
+- Deanne M. Taylor
+- Taha Mohseni Ahooyi
+- Benjamin J. Stear
+- '[FIRST] Zhang'
+- J. Alan Simmons
+- '[FIRST] Lahiri'
+- '[FIRST] Terry'
+- Jonathan C. Silverstein
 header-includes: |
   <!--
   Manubot generated metadata rendered from header-includes-template.html.
@@ -16,28 +28,45 @@ header-includes: |
   -->
   <meta name="dc.format" content="text/html" />
   <meta property="og:type" content="article" />
-  <meta name="dc.title" content="Manuscript Title" />
-  <meta name="citation_title" content="Manuscript Title" />
-  <meta property="og:title" content="Manuscript Title" />
-  <meta property="twitter:title" content="Manuscript Title" />
+  <meta name="dc.title" content="Biological Information Flow Ontology: A Framework for Mechanistically Constrained Propagation in Biomedical Knowledge Graphs" />
+  <meta name="citation_title" content="Biological Information Flow Ontology: A Framework for Mechanistically Constrained Propagation in Biomedical Knowledge Graphs" />
+  <meta property="og:title" content="Biological Information Flow Ontology: A Framework for Mechanistically Constrained Propagation in Biomedical Knowledge Graphs" />
+  <meta property="twitter:title" content="Biological Information Flow Ontology: A Framework for Mechanistically Constrained Propagation in Biomedical Knowledge Graphs" />
   <meta name="dc.date" content="2026-04-27" />
   <meta name="citation_publication_date" content="2026-04-27" />
   <meta property="article:published_time" content="2026-04-27" />
-  <meta name="dc.modified" content="2026-04-27T17:40:01+00:00" />
-  <meta property="article:modified_time" content="2026-04-27T17:40:01+00:00" />
+  <meta name="dc.modified" content="2026-04-27T17:43:36+00:00" />
+  <meta property="article:modified_time" content="2026-04-27T17:43:36+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
   <meta name="dc.publisher" content="Manubot" />
   <meta name="citation_journal_title" content="Manubot" />
   <meta name="citation_technical_report_institution" content="Manubot" />
-  <meta name="citation_author" content="John Doe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
+  <meta name="citation_author" content="Deanne M. Taylor" />
+  <meta name="citation_author_institution" content="The Department of Biomedical and Health Informatics, The Children&#39;s Hospital of Philadelphia, Philadelphia, PA, USA" />
+  <meta name="citation_author_institution" content="Department of Pediatrics, University of Pennsylvania Perelman School of Medicine, Philadelphia, PA, USA" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
-  <meta name="twitter:creator" content="@johndoe" />
-  <meta name="citation_author" content="Jane Roe" />
-  <meta name="citation_author_institution" content="Department of Something, University of Whatever" />
-  <meta name="citation_author_institution" content="Department of Whatever, University of Something" />
+  <meta name="citation_author" content="Taha Mohseni Ahooyi" />
+  <meta name="citation_author_institution" content="The Department of Biomedical and Health Informatics, The Children&#39;s Hospital of Philadelphia, Philadelphia, PA, USA" />
+  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="Benjamin J. Stear" />
+  <meta name="citation_author_institution" content="The Department of Biomedical and Health Informatics, The Children&#39;s Hospital of Philadelphia, Philadelphia, PA, USA" />
+  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="[FIRST] Zhang" />
+  <meta name="citation_author_institution" content="TODO: Zhang affiliation" />
+  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="J. Alan Simmons" />
+  <meta name="citation_author_institution" content="Department of Biomedical Informatics, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA" />
+  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="[FIRST] Lahiri" />
+  <meta name="citation_author_institution" content="TODO: Lahiri affiliation" />
+  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="[FIRST] Terry" />
+  <meta name="citation_author_institution" content="TODO: Terry affiliation" />
+  <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
+  <meta name="citation_author" content="Jonathan C. Silverstein" />
+  <meta name="citation_author_institution" content="Department of Biomedical Informatics, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA" />
   <meta name="citation_author_orcid" content="XXXX-XXXX-XXXX-XXXX" />
   <link rel="canonical" href="https://TaylorResearchLab.github.io/bifo-paper-0/" />
   <meta property="og:url" content="https://TaylorResearchLab.github.io/bifo-paper-0/" />
@@ -45,9 +74,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://TaylorResearchLab.github.io/bifo-paper-0/" />
   <meta name="citation_pdf_url" content="https://TaylorResearchLab.github.io/bifo-paper-0/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://TaylorResearchLab.github.io/bifo-paper-0/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://TaylorResearchLab.github.io/bifo-paper-0/v/f44f9bbe35441a8acd51a5898e6e739acaf54c1c/" />
-  <meta name="manubot_html_url_versioned" content="https://TaylorResearchLab.github.io/bifo-paper-0/v/f44f9bbe35441a8acd51a5898e6e739acaf54c1c/" />
-  <meta name="manubot_pdf_url_versioned" content="https://TaylorResearchLab.github.io/bifo-paper-0/v/f44f9bbe35441a8acd51a5898e6e739acaf54c1c/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://TaylorResearchLab.github.io/bifo-paper-0/v/3dbccbf905a52f3cafc9aa6fef16e5965dd76ccd/" />
+  <meta name="manubot_html_url_versioned" content="https://TaylorResearchLab.github.io/bifo-paper-0/v/3dbccbf905a52f3cafc9aa6fef16e5965dd76ccd/" />
+  <meta name="manubot_pdf_url_versioned" content="https://TaylorResearchLab.github.io/bifo-paper-0/v/3dbccbf905a52f3cafc9aa6fef16e5965dd76ccd/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -69,9 +98,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://TaylorResearchLab.github.io/bifo-paper-0/v/f44f9bbe35441a8acd51a5898e6e739acaf54c1c/))
+([permalink](https://TaylorResearchLab.github.io/bifo-paper-0/v/3dbccbf905a52f3cafc9aa6fef16e5965dd76ccd/))
 was automatically generated
-from [TaylorResearchLab/bifo-paper-0@f44f9bb](https://github.com/TaylorResearchLab/bifo-paper-0/tree/f44f9bbe35441a8acd51a5898e6e739acaf54c1c)
+from [TaylorResearchLab/bifo-paper-0@3dbccbf](https://github.com/TaylorResearchLab/bifo-paper-0/tree/3dbccbf905a52f3cafc9aa6fef16e5965dd76ccd)
 on April 27, 2026.
 </em></small>
 
@@ -81,38 +110,85 @@ on April 27, 2026.
 
 
 
-+ **John Doe**
-  <br>
-    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
-    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [johndoe](https://github.com/johndoe)
-    · ![Twitter icon](images/twitter.svg){.inline_icon width=16 height=16}
-    [johndoe](https://twitter.com/johndoe)
-    · ![Mastodon icon](images/mastodon.svg){.inline_icon width=16 height=16}
-    [\@johndoe@mastodon.social](https://mastodon.social/@johndoe)
-    <br>
-  <small>
-     Department of Something, University of Whatever
-     · Funded by Grant XXXXXXXX
-  </small>
-
-+ **Jane Roe**
++ **Deanne M. Taylor**
   ^[✉](#correspondence)^<br>
     ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
     [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
-    · ![GitHub icon](images/github.svg){.inline_icon width=16 height=16}
-    [janeroe](https://github.com/janeroe)
     <br>
   <small>
-     Department of Something, University of Whatever; Department of Whatever, University of Something
+     The Department of Biomedical and Health Informatics, The Children's Hospital of Philadelphia, Philadelphia, PA, USA; Department of Pediatrics, University of Pennsylvania Perelman School of Medicine, Philadelphia, PA, USA
+     · Funded by NIH Common Fund R03OD030600; NIH Common Fund OT2OD030162
+  </small>
+
++ **Taha Mohseni Ahooyi**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    <br>
+  <small>
+     The Department of Biomedical and Health Informatics, The Children's Hospital of Philadelphia, Philadelphia, PA, USA
+  </small>
+
++ **Benjamin J. Stear**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    <br>
+  <small>
+     The Department of Biomedical and Health Informatics, The Children's Hospital of Philadelphia, Philadelphia, PA, USA
+  </small>
+
++ **[FIRST] Zhang**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    <br>
+  <small>
+     TODO: Zhang affiliation
+  </small>
+
++ **J. Alan Simmons**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    <br>
+  <small>
+     Department of Biomedical Informatics, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA
+  </small>
+
++ **[FIRST] Lahiri**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    <br>
+  <small>
+     TODO: Lahiri affiliation
+  </small>
+
++ **[FIRST] Terry**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    <br>
+  <small>
+     TODO: Terry affiliation
+  </small>
+
++ **Jonathan C. Silverstein**
+  <br>
+    ![ORCID icon](images/orcid.svg){.inline_icon width=16 height=16}
+    [XXXX-XXXX-XXXX-XXXX](https://orcid.org/XXXX-XXXX-XXXX-XXXX)
+    <br>
+  <small>
+     Department of Biomedical Informatics, School of Medicine, University of Pittsburgh, Pittsburgh, PA, USA
+     · Funded by NIH Common Fund OT2OD026663; NIH Common Fund OT2OD026675
   </small>
 
 
 ::: {#correspondence}
 ✉ — Correspondence possible via [GitHub Issues](https://github.com/TaylorResearchLab/bifo-paper-0/issues)
 or email to
-Jane Roe \<jane.roe@whatever.edu\>.
+Deanne M. Taylor \<taylordm@chop.edu\>.
 
 
 :::
