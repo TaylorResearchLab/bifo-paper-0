@@ -1,473 +1,471 @@
 [
   {
-    "publisher": "The Royal Society",
-    "issue": "141",
-    "abstract": "<jats:p>Deep learning describes a class of machine learning algorithms that are capable of combining raw inputs into layers of intermediate features. These algorithms have recently shown impressive results across a variety of domains. Biology and medicine are data-rich disciplines, but the data are complex and often ill-understood. Hence, deep learning techniques may be particularly well suited to solve problems of these fields. We examine applications of deep learning to a variety of biomedical problems—patient classification, fundamental biological processes and treatment of patients—and discuss whether deep learning will be able to transform these tasks or if the biomedical sphere poses unique challenges. Following from an extensive literature review, we find that deep learning has yet to revolutionize biomedicine or definitively resolve any of the most pressing challenges in the field, but promising advances have been made on the prior state of the art. Even though improvements over previous baselines have been modest in general, the recent progress indicates that deep learning methods will provide valuable means for speeding up or aiding human investigation. Though progress has been made linking a specific neural network's prediction to input features, understanding how users should interpret these models to make testable hypotheses about the system under study remains an open challenge. Furthermore, the limited amount of labelled data for training presents problems in some domains, as do legal and privacy constraints on work with sensitive health records. Nonetheless, we foresee deep learning enabling changes at both bench and bedside with the potential to transform several areas of biology and medicine.</jats:p>",
-    "DOI": "10.1098/rsif.2017.0387",
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "DOI": "10.1038/75556",
     "type": "article-journal",
+    "page": "25-29",
     "source": "Crossref",
-    "title": "Opportunities and obstacles for deep learning in biology and medicine",
-    "volume": "15",
+    "title": "Gene Ontology: tool for the unification of biology",
+    "volume": "25",
     "author": [
       {
-        "given": "Travers",
-        "family": "Ching"
-      },
-      {
-        "given": "Daniel S.",
-        "family": "Himmelstein"
-      },
-      {
-        "given": "Brett K.",
-        "family": "Beaulieu-Jones"
-      },
-      {
-        "given": "Alexandr A.",
-        "family": "Kalinin"
-      },
-      {
-        "given": "Brian T.",
-        "family": "Do"
-      },
-      {
-        "given": "Gregory P.",
-        "family": "Way"
-      },
-      {
-        "given": "Enrico",
-        "family": "Ferrero"
-      },
-      {
-        "given": "Paul-Michael",
-        "family": "Agapow"
-      },
-      {
         "given": "Michael",
-        "family": "Zietz"
+        "family": "Ashburner"
       },
       {
-        "given": "Michael M.",
-        "family": "Hoffman"
+        "given": "Catherine A.",
+        "family": "Ball"
       },
       {
-        "given": "Wei",
-        "family": "Xie"
+        "given": "Judith A.",
+        "family": "Blake"
       },
       {
-        "given": "Gail L.",
-        "family": "Rosen"
+        "given": "David",
+        "family": "Botstein"
       },
       {
-        "given": "Benjamin J.",
-        "family": "Lengerich"
+        "given": "Heather",
+        "family": "Butler"
       },
       {
-        "given": "Johnny",
-        "family": "Israeli"
+        "given": "J. Michael",
+        "family": "Cherry"
       },
       {
-        "given": "Jack",
-        "family": "Lanchantin"
+        "given": "Allan P.",
+        "family": "Davis"
       },
       {
-        "given": "Stephen",
-        "family": "Woloszynek"
+        "given": "Kara",
+        "family": "Dolinski"
       },
       {
-        "given": "Anne E.",
-        "family": "Carpenter"
+        "given": "Selina S.",
+        "family": "Dwight"
       },
       {
-        "given": "Avanti",
-        "family": "Shrikumar"
+        "given": "Janan T.",
+        "family": "Eppig"
       },
       {
-        "given": "Jinbo",
-        "family": "Xu"
-      },
-      {
-        "given": "Evan M.",
-        "family": "Cofer"
-      },
-      {
-        "given": "Christopher A.",
-        "family": "Lavender"
-      },
-      {
-        "given": "Srinivas C.",
-        "family": "Turaga"
-      },
-      {
-        "given": "Amr M.",
-        "family": "Alexandari"
-      },
-      {
-        "given": "Zhiyong",
-        "family": "Lu"
-      },
-      {
-        "given": "David J.",
+        "given": "Midori A.",
         "family": "Harris"
       },
       {
-        "given": "Dave",
-        "family": "DeCaprio"
+        "given": "David P.",
+        "family": "Hill"
       },
       {
-        "given": "Yanjun",
-        "family": "Qi"
+        "given": "Laurie",
+        "family": "Issel-Tarver"
       },
       {
-        "given": "Anshul",
-        "family": "Kundaje"
+        "given": "Andrew",
+        "family": "Kasarskis"
       },
       {
-        "given": "Yifan",
-        "family": "Peng"
+        "given": "Suzanna",
+        "family": "Lewis"
       },
       {
-        "given": "Laura K.",
-        "family": "Wiley"
+        "given": "John C.",
+        "family": "Matese"
       },
       {
-        "given": "Marwin H. S.",
-        "family": "Segler"
+        "given": "Joel E.",
+        "family": "Richardson"
       },
       {
-        "given": "Simina M.",
-        "family": "Boca"
+        "given": "Martin",
+        "family": "Ringwald"
       },
       {
-        "given": "S. Joshua",
-        "family": "Swamidass"
+        "given": "Gerald M.",
+        "family": "Rubin"
       },
       {
-        "given": "Austin",
-        "family": "Huang"
-      },
-      {
-        "given": "Anthony",
-        "family": "Gitter"
-      },
-      {
-        "given": "Casey S.",
-        "family": "Greene"
+        "given": "Gavin",
+        "family": "Sherlock"
       }
     ],
-    "container-title": "Journal of The Royal Society Interface",
+    "container-title": "Nature Genetics",
     "language": "en",
     "issued": {
       "date-parts": [
         [
-          2018,
-          4
+          2000,
+          5
         ]
       ]
     },
-    "URL": "https://doi.org/gddkhn",
-    "container-title-short": "J. R. Soc. Interface.",
-    "PMCID": "PMC5938574",
-    "PMID": "29618526",
-    "id": "PZMP42Ak",
-    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1098/rsif.2017.0387"
+    "URL": "https://doi.org/b9gp96",
+    "container-title-short": "Nat Genet",
+    "PMCID": "PMC3037419",
+    "PMID": "10802651",
+    "id": "pqVRhFos",
+    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/75556"
   },
   {
-    "publisher": "Public Library of Science (PLoS)",
-    "issue": "6",
-    "DOI": "10.1371/journal.pcbi.1007128",
-    "type": "article-journal",
-    "page": "e1007128",
-    "source": "Crossref",
-    "title": "Open collaborative writing with Manubot",
-    "volume": "15",
-    "author": [
-      {
-        "given": "Daniel S.",
-        "family": "Himmelstein"
-      },
-      {
-        "given": "Vincent",
-        "family": "Rubinetti"
-      },
-      {
-        "given": "David R.",
-        "family": "Slochower"
-      },
-      {
-        "given": "Dongbo",
-        "family": "Hu"
-      },
-      {
-        "given": "Venkat S.",
-        "family": "Malladi"
-      },
-      {
-        "given": "Casey S.",
-        "family": "Greene"
-      },
-      {
-        "given": "Anthony",
-        "family": "Gitter"
-      }
-    ],
-    "container-title": "PLOS Computational Biology",
-    "language": "en",
-    "editor": [
-      {
-        "given": "Dina",
-        "family": "Schneidman-Duhovny"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          2019,
-          6,
-          24
-        ]
-      ]
-    },
-    "URL": "https://doi.org/c7np",
-    "container-title-short": "PLoS Comput Biol",
-    "PMCID": "PMC6611653",
-    "PMID": "31233491",
-    "id": "YuJbg3zO",
-    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1371/journal.pcbi.1007128"
-  },
-  {
-    "publisher": "eLife Sciences Publications, Ltd",
-    "abstract": "<jats:p>The website Sci-Hub enables users to download PDF versions of scholarly articles, including many articles that are paywalled at their journal’s site. Sci-Hub has grown rapidly since its creation in 2011, but the extent of its coverage has been unclear. Here we report that, as of March 2017, Sci-Hub’s database contains 68.9% of the 81.6 million scholarly articles registered with Crossref and 85.1% of articles published in toll access journals. We find that coverage varies by discipline and publisher, and that Sci-Hub preferentially covers popular, paywalled content. For toll access articles, we find that Sci-Hub provides greater coverage than the University of Pennsylvania, a major research university in the United States. Green open access to toll access articles via licit services, on the other hand, remains quite limited. Our interactive browser at https://greenelab.github.io/scihub allows users to explore these findings in more detail. For the first time, nearly all scholarly literature is available gratis to anyone with an Internet connection, suggesting the toll access business model may become unsustainable.</jats:p>",
-    "DOI": "10.7554/elife.32822",
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "DOI": "10.1038/s41597-024-04070-w",
     "type": "article-journal",
     "source": "Crossref",
-    "title": "Sci-Hub provides access to nearly all scholarly literature",
-    "volume": "7",
+    "title": "Petagraph: A large-scale unifying knowledge graph framework for integrating biomolecular and biomedical data",
+    "volume": "11",
     "author": [
       {
-        "given": "Daniel S",
-        "family": "Himmelstein"
+        "given": "Benjamin J.",
+        "family": "Stear"
       },
       {
-        "given": "Ariel Rodriguez",
-        "family": "Romero"
+        "given": "Taha",
+        "family": "Mohseni Ahooyi"
       },
       {
-        "given": "Jacob G",
-        "family": "Levernier"
+        "given": "J. Alan",
+        "family": "Simmons"
       },
       {
-        "given": "Thomas Anthony",
-        "family": "Munro"
+        "given": "Charles",
+        "family": "Kollar"
       },
       {
-        "given": "Stephen Reid",
-        "family": "McLaughlin"
+        "given": "Lance",
+        "family": "Hartman"
       },
       {
-        "given": "Bastian",
-        "family": "Greshake Tzovaras"
+        "given": "Katherine",
+        "family": "Beigel"
       },
       {
-        "given": "Casey S",
-        "family": "Greene"
+        "given": "Aditya",
+        "family": "Lahiri"
+      },
+      {
+        "given": "Shubha",
+        "family": "Vasisht"
+      },
+      {
+        "given": "Tiffany J.",
+        "family": "Callahan"
+      },
+      {
+        "given": "Christopher M.",
+        "family": "Nemarich"
+      },
+      {
+        "given": "Jonathan C.",
+        "family": "Silverstein"
+      },
+      {
+        "given": "Deanne M.",
+        "family": "Taylor"
       }
     ],
-    "container-title": "eLife",
+    "container-title": "Scientific Data",
     "language": "en",
     "issued": {
       "date-parts": [
         [
-          2018,
-          3,
-          1
+          2024,
+          12,
+          18
         ]
       ]
     },
-    "URL": "https://doi.org/ckcj",
-    "PMID": "29424689",
-    "id": "IhliSZDo",
-    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.7554/elife.32822"
+    "URL": "https://doi.org/hbxntv",
+    "container-title-short": "Sci Data",
+    "PMCID": "PMC11655564",
+    "PMID": "39695169",
+    "id": "1Fxwv2U6v",
+    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/s41597-024-04070-w"
   },
   {
-    "id": "zBPP9YKu",
-    "type": "book",
-    "call-number": "Z286.O63",
-    "collection-title": "MIT Press essential knowledge series",
-    "event-place": "Cambridge, Mass",
-    "number-of-pages": "1",
-    "publisher": "MIT Press",
-    "publisher-place": "Cambridge, Mass",
-    "source": "Library of Congress ISBN",
-    "title": "Open access",
+    "publisher": "Springer Science and Business Media LLC",
+    "issue": "1",
+    "DOI": "10.1038/s41597-024-04358-x",
+    "type": "article-journal",
+    "source": "Crossref",
+    "title": "Homo Sapiens Chromosomal Location Ontology: A Framework for Genomic Data in Biomedical Knowledge Graphs",
+    "volume": "12",
     "author": [
       {
-        "family": "Suber",
-        "given": "Peter"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2012"
-        ]
-      ]
-    },
-    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: isbn:9780262517638"
-  },
-  {
-    "source": "PubMed",
-    "accessed": {
-      "date-parts": [
-        [
-          2026,
-          4,
-          27
-        ]
-      ]
-    },
-    "id": "mSMVRkoc",
-    "title": "Reproducibility of computational workflows is automated using continuous analysis",
-    "author": [
-      {
-        "family": "Beaulieu-Jones",
-        "given": "Brett K"
+        "given": "Taha",
+        "family": "Mohseni Ahooyi"
       },
       {
-        "family": "Greene",
-        "given": "Casey S"
+        "given": "Benjamin",
+        "family": "Stear"
+      },
+      {
+        "given": "J. Alan",
+        "family": "Simmons"
+      },
+      {
+        "given": "Christopher M.",
+        "family": "Nemarich"
+      },
+      {
+        "given": "Jonathan C.",
+        "family": "Silverstein"
+      },
+      {
+        "given": "Deanne M.",
+        "family": "Taylor"
       }
     ],
-    "container-title-short": "Nat Biotechnol",
-    "container-title": "Nature biotechnology",
-    "publisher-place": "United States",
-    "ISSN": "1087-0156",
+    "container-title": "Scientific Data",
+    "language": "en",
     "issued": {
       "date-parts": [
         [
-          2017,
-          4
+          2025,
+          1,
+          11
         ]
       ]
     },
-    "page": "342-346",
-    "volume": "35",
-    "issue": "4",
-    "PMID": "28288103",
-    "PMCID": "PMC6103790",
-    "DOI": "10.1038/nbt.3780",
-    "type": "article-journal",
-    "URL": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6103790/",
-    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: pmc:PMC6103790"
+    "URL": "https://doi.org/hbzmz3",
+    "container-title-short": "Sci Data",
+    "PMCID": "PMC11724927",
+    "PMID": "39799122",
+    "id": "QZDuHvUw",
+    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1038/s41597-024-04358-x"
   },
   {
-    "title": "Bitcoin for the biological literature.",
-    "volume": "566",
-    "issue": "7742",
-    "page": "141-142",
-    "container-title": "Nature",
-    "container-title-short": "Nature",
-    "ISSN": "1476-4687",
+    "publisher": "Oxford University Press (OUP)",
+    "issue": "D1",
+    "abstract": "<jats:title>Abstract</jats:title>\n                  <jats:p>The Human Phenotype Ontology (HPO, https://hpo.jax.org) was launched in 2008 to provide a comprehensive logical standard to describe and computationally analyze phenotypic abnormalities found in human disease. The HPO is now a worldwide standard for phenotype exchange. The HPO has grown steadily since its inception due to considerable contributions from clinical experts and researchers from a diverse range of disciplines. Here, we present recent major extensions of the HPO for neurology, nephrology, immunology, pulmonology, newborn screening, and other areas. For example, the seizure subontology now reflects the International League Against Epilepsy (ILAE) guidelines and these enhancements have already shown clinical validity. We present new efforts to harmonize computational definitions of phenotypic abnormalities across the HPO and multiple phenotype ontologies used for animal models of disease. These efforts will benefit software such as Exomiser by improving the accuracy and scope of cross-species phenotype matching. The computational modeling strategy used by the HPO to define disease entities and phenotypic features and distinguish between them is explained in detail.We also report on recent efforts to translate the HPO into indigenous languages. Finally, we summarize recent advances in the use of HPO in electronic health record systems.</jats:p>",
+    "DOI": "10.1093/nar/gkaa1043",
+    "type": "article-journal",
+    "page": "D1207-D1217",
+    "source": "Crossref",
+    "title": "The Human Phenotype Ontology in 2021",
+    "volume": "49",
+    "author": [
+      {
+        "given": "Sebastian",
+        "family": "Köhler"
+      },
+      {
+        "given": "Michael",
+        "family": "Gargano"
+      },
+      {
+        "given": "Nicolas",
+        "family": "Matentzoglu"
+      },
+      {
+        "given": "Leigh C",
+        "family": "Carmody"
+      },
+      {
+        "given": "David",
+        "family": "Lewis-Smith"
+      },
+      {
+        "given": "Nicole A",
+        "family": "Vasilevsky"
+      },
+      {
+        "given": "Daniel",
+        "family": "Danis"
+      },
+      {
+        "given": "Ganna",
+        "family": "Balagura"
+      },
+      {
+        "given": "Gareth",
+        "family": "Baynam"
+      },
+      {
+        "given": "Amy M",
+        "family": "Brower"
+      },
+      {
+        "given": "Tiffany J",
+        "family": "Callahan"
+      },
+      {
+        "given": "Christopher G",
+        "family": "Chute"
+      },
+      {
+        "given": "Johanna L",
+        "family": "Est"
+      },
+      {
+        "given": "Peter D",
+        "family": "Galer"
+      },
+      {
+        "given": "Shiva",
+        "family": "Ganesan"
+      },
+      {
+        "given": "Matthias",
+        "family": "Griese"
+      },
+      {
+        "given": "Matthias",
+        "family": "Haimel"
+      },
+      {
+        "given": "Julia",
+        "family": "Pazmandi"
+      },
+      {
+        "given": "Marc",
+        "family": "Hanauer"
+      },
+      {
+        "given": "Nomi L",
+        "family": "Harris"
+      },
+      {
+        "given": "Michael J",
+        "family": "Hartnett"
+      },
+      {
+        "given": "Maximilian",
+        "family": "Hastreiter"
+      },
+      {
+        "given": "Fabian",
+        "family": "Hauck"
+      },
+      {
+        "given": "Yongqun",
+        "family": "He"
+      },
+      {
+        "given": "Tim",
+        "family": "Jeske"
+      },
+      {
+        "given": "Hugh",
+        "family": "Kearney"
+      },
+      {
+        "given": "Gerhard",
+        "family": "Kindle"
+      },
+      {
+        "given": "Christoph",
+        "family": "Klein"
+      },
+      {
+        "given": "Katrin",
+        "family": "Knoflach"
+      },
+      {
+        "given": "Roland",
+        "family": "Krause"
+      },
+      {
+        "given": "David",
+        "family": "Lagorce"
+      },
+      {
+        "given": "Julie A",
+        "family": "McMurry"
+      },
+      {
+        "given": "Jillian A",
+        "family": "Miller"
+      },
+      {
+        "given": "Monica C",
+        "family": "Munoz-Torres"
+      },
+      {
+        "given": "Rebecca L",
+        "family": "Peters"
+      },
+      {
+        "given": "Christina K",
+        "family": "Rapp"
+      },
+      {
+        "given": "Ana M",
+        "family": "Rath"
+      },
+      {
+        "given": "Shahmir A",
+        "family": "Rind"
+      },
+      {
+        "given": "Avi Z",
+        "family": "Rosenberg"
+      },
+      {
+        "given": "Michael M",
+        "family": "Segal"
+      },
+      {
+        "given": "Markus G",
+        "family": "Seidel"
+      },
+      {
+        "given": "Damian",
+        "family": "Smedley"
+      },
+      {
+        "given": "Tomer",
+        "family": "Talmy"
+      },
+      {
+        "given": "Yarlalu",
+        "family": "Thomas"
+      },
+      {
+        "given": "Samuel A",
+        "family": "Wiafe"
+      },
+      {
+        "given": "Julie",
+        "family": "Xian"
+      },
+      {
+        "given": "Zafer",
+        "family": "Yüksel"
+      },
+      {
+        "given": "Ingo",
+        "family": "Helbig"
+      },
+      {
+        "given": "Christopher J",
+        "family": "Mungall"
+      },
+      {
+        "given": "Melissa A",
+        "family": "Haendel"
+      },
+      {
+        "given": "Peter N",
+        "family": "Robinson"
+      }
+    ],
+    "container-title": "Nucleic Acids Research",
+    "language": "en",
     "issued": {
       "date-parts": [
         [
-          2019,
+          2020,
+          12,
           2
         ]
       ]
     },
-    "author": [
-      {
-        "given": "Douglas",
-        "family": "Heaven"
-      }
-    ],
-    "PMID": "30718888",
-    "DOI": "10.1038/d41586-019-00447-9",
-    "URL": "https://www.ncbi.nlm.nih.gov/pubmed/30718888",
-    "type": "article-journal",
-    "id": "126Wi5Us4",
-    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: pubmed:30718888"
-  },
-  {
-    "id": "1GGGHdsew",
-    "type": "report",
-    "language": "en-US",
-    "publisher": "Manubot",
-    "source": "greenelab.github.io",
-    "title": "Open collaborative writing with Manubot",
-    "URL": "https://greenelab.github.io/meta-review/",
-    "author": [
-      {
-        "family": "Himmelstein",
-        "given": "Daniel S."
-      },
-      {
-        "family": "Rubinetti",
-        "given": "Vincent"
-      },
-      {
-        "family": "Slochower",
-        "given": "David R."
-      },
-      {
-        "family": "Hu",
-        "given": "Dongbo"
-      },
-      {
-        "family": "Malladi",
-        "given": "Venkat S."
-      },
-      {
-        "family": "Greene",
-        "given": "Casey S."
-      },
-      {
-        "family": "Gitter",
-        "given": "Anthony"
-      }
-    ],
-    "accessed": {
-      "date-parts": [
-        [
-          "2026",
-          4,
-          27
-        ]
-      ]
-    },
-    "issued": {
-      "date-parts": [
-        [
-          "2020",
-          5,
-          25
-        ]
-      ]
-    },
-    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: url:https://greenelab.github.io/meta-review/"
-  },
-  {
-    "id": "QhC8yJ7V",
-    "type": "document",
-    "note": "QID: Q56458321\nThis CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: wikidata:Q56458321",
-    "source": "Wikidata",
-    "title": "Plan S: Accelerating the transition to full and immediate Open Access to scientific publications",
-    "title-short": "Plan S",
-    "author": [
-      {
-        "family": "S",
-        "given": "cOAlition"
-      }
-    ],
-    "issued": {
-      "date-parts": [
-        [
-          "2018",
-          9,
-          4
-        ]
-      ]
-    },
-    "URL": "https://www.wikidata.org/wiki/Q56458321"
+    "URL": "https://doi.org/gkq78m",
+    "PMCID": "PMC7778952",
+    "PMID": "33264411",
+    "id": "HzIfcvnR",
+    "note": "This CSL Item was generated by Manubot v0.6.1 from its persistent identifier (standard_id).\nstandard_id: doi:10.1093/nar/gkaa1043"
   }
 ]
