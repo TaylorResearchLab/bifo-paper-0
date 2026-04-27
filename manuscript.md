@@ -35,8 +35,8 @@ header-includes: |
   <meta name="dc.date" content="2026-04-27" />
   <meta name="citation_publication_date" content="2026-04-27" />
   <meta property="article:published_time" content="2026-04-27" />
-  <meta name="dc.modified" content="2026-04-27T17:54:00+00:00" />
-  <meta property="article:modified_time" content="2026-04-27T17:54:00+00:00" />
+  <meta name="dc.modified" content="2026-04-27T19:00:04+00:00" />
+  <meta property="article:modified_time" content="2026-04-27T19:00:04+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -74,9 +74,9 @@ header-includes: |
   <meta name="citation_fulltext_html_url" content="https://TaylorResearchLab.github.io/bifo-paper-0/" />
   <meta name="citation_pdf_url" content="https://TaylorResearchLab.github.io/bifo-paper-0/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://TaylorResearchLab.github.io/bifo-paper-0/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://TaylorResearchLab.github.io/bifo-paper-0/v/edd5ca940379831c0e06ee6cc792e4cc1fb24145/" />
-  <meta name="manubot_html_url_versioned" content="https://TaylorResearchLab.github.io/bifo-paper-0/v/edd5ca940379831c0e06ee6cc792e4cc1fb24145/" />
-  <meta name="manubot_pdf_url_versioned" content="https://TaylorResearchLab.github.io/bifo-paper-0/v/edd5ca940379831c0e06ee6cc792e4cc1fb24145/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://TaylorResearchLab.github.io/bifo-paper-0/v/1c3acb3263261d3fb6f5ce7cc54b3cf2c2e9e23d/" />
+  <meta name="manubot_html_url_versioned" content="https://TaylorResearchLab.github.io/bifo-paper-0/v/1c3acb3263261d3fb6f5ce7cc54b3cf2c2e9e23d/" />
+  <meta name="manubot_pdf_url_versioned" content="https://TaylorResearchLab.github.io/bifo-paper-0/v/1c3acb3263261d3fb6f5ce7cc54b3cf2c2e9e23d/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -98,9 +98,9 @@ manubot-clear-requests-cache: false
 
 <small><em>
 This manuscript
-([permalink](https://TaylorResearchLab.github.io/bifo-paper-0/v/edd5ca940379831c0e06ee6cc792e4cc1fb24145/))
+([permalink](https://TaylorResearchLab.github.io/bifo-paper-0/v/1c3acb3263261d3fb6f5ce7cc54b3cf2c2e9e23d/))
 was automatically generated
-from [TaylorResearchLab/bifo-paper-0@edd5ca9](https://github.com/TaylorResearchLab/bifo-paper-0/tree/edd5ca940379831c0e06ee6cc792e4cc1fb24145)
+from [TaylorResearchLab/bifo-paper-0@1c3acb3](https://github.com/TaylorResearchLab/bifo-paper-0/tree/1c3acb3263261d3fb6f5ce7cc54b3cf2c2e9e23d)
 on April 27, 2026.
 </em></small>
 
@@ -207,7 +207,7 @@ The Biological Information Flow Ontology (BIFO) is an ontological framework that
 
 Knowledge graphs (KGs) have become important tools for integrating and analyzing heterogeneous biomedical data, enabling the linkage of diverse datasets in a structured and semantically enriched manner [@doi:10.1038/s41597-024-04070-w]. As biomedical KGs scale to millions of nodes and tens of millions of edges drawn from dozens of source vocabularies, a problem distinct from data integration emerges: not every relationship in such a graph encodes the same kind of biological information. Hierarchy edges define structure, lexical edges define identity, statistical co-occurrence edges record correlation, and only a subset of typed predicates encode the directional, state-changing transformations that mechanistic biological reasoning requires. Naive propagation algorithms operating over such graphs implicitly treat all of these as equivalent channels, producing reachable state spaces that include semantically invalid paths and obscure biologically meaningful signal.
 
-Existing frameworks address parts of this problem but do not resolve it. Ontologies such as the Gene Ontology [@doi:10.1038/75556] and the Human Phenotype Ontology [@doi:10.1093/nar/gkaa1043] provide structured representations of biological concepts but do not define propagation rules. Knowledge graph systems support typed traversal but rely on user-defined queries rather than biologically grounded constraints. Causal-assertion frameworks such as BEL [@TODO:bel-citation] and GO-CAM [@TODO:go-cam-citation] encode mechanistic relationships but operate within curated representations and do not provide a general protocol for conditioning arbitrary heterogeneous graphs. Standards such as SBML [@TODO:sbml-citation] encode explicitly defined mechanistic models but require model construction up front rather than acting on integrated KGs. Foundational ontologies such as BFO [@TODO:bfo-citation] specify upper-level categories without addressing biological propagation specifically. Graph machine learning approaches can operate over heterogeneous structures but learn propagation behavior from data rather than enforcing biologically interpretable constraints.
+Existing frameworks address parts of this problem but do not resolve it. Ontologies such as the Gene Ontology [@doi:10.1038/75556] and the Human Phenotype Ontology [@doi:10.1093/nar/gkaa1043] provide structured representations of biological concepts but do not define propagation rules. Knowledge graph systems support typed traversal but rely on user-defined queries rather than biologically grounded constraints. Causal-assertion frameworks such as BEL [@doi:10.1016/j.drudis.2013.12.011] and GO-CAM [@doi:10.1038/s41588-019-0500-1] encode mechanistic relationships but operate within curated representations and do not provide a general protocol for conditioning arbitrary heterogeneous graphs. Standards such as SBML [@doi:10.1093/bioinformatics/btg015] encode explicitly defined mechanistic models but require model construction up front rather than acting on integrated KGs. Foundational ontologies such as BFO [@doi:10.3233/AO-220262] specify upper-level categories without addressing biological propagation specifically. Graph machine learning approaches can operate over heterogeneous structures but learn propagation behavior from data rather than enforcing biologically interpretable constraints.
 
 To address this gap, we introduce the Biological Information Flow Ontology (BIFO), an ontological framework that formally defines admissible biological entities, entity states, and the information flows between them. BIFO specifies what kinds of biological entities can exist in a flow-aware network, what transformations between those entities are biologically meaningful, and in which directions information can propagate. Within this framework, we distinguish three categories of relationships. **Mechanistic** relationships encode directional, state-changing biological transformations such as signal transduction, transcriptional regulation, and biochemical catalysis, and they participate in propagation. **Observational** relationships, such as statistical co-expression or text-mining co-occurrence, capture correlative associations without encoding causal state transitions and are excluded from propagation. **Contextual** relationships encode spatial, temporal, or structural constraints that restrict which transitions are feasible without themselves carrying signal. Applied to a heterogeneous knowledge graph, these definitions produce a constrained propagation substrate: the constraint is a consequence of the definitions, not their purpose. BIFO is not designed to restrict graphs; it is designed to formalize what biology *is* in terms of admissible entities and flows.
 
@@ -311,9 +311,6 @@ The BIFO ontology, including normative tables, mapping configurations, and the c
 
 
 ## References {.page_break_before}
-
-<!-- Explicitly insert bibliography here -->
-<div id="refs"></div>
 
 
 ## References {.page_break_before}

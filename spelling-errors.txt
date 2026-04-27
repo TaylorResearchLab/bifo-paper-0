@@ -2,7 +2,7 @@ Aditya
 Ahooyi
 BEL
 BFO
-bifo
+BIFO
 BIFO’s
 BioPAX
 centric
@@ -32,7 +32,7 @@ neuroblastoma
 noncoding
 occurrents
 omic
-Ontologies
+ontologies
 OSF
 PageRank
 perturbagens
