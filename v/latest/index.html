@@ -60,8 +60,8 @@
   <meta name="dc.date" content="2026-04-27" />
   <meta name="citation_publication_date" content="2026-04-27" />
   <meta property="article:published_time" content="2026-04-27" />
-  <meta name="dc.modified" content="2026-04-27T20:49:36+00:00" />
-  <meta property="article:modified_time" content="2026-04-27T20:49:36+00:00" />
+  <meta name="dc.modified" content="2026-04-27T22:00:12+00:00" />
+  <meta property="article:modified_time" content="2026-04-27T22:00:12+00:00" />
   <meta name="dc.language" content="en-US" />
   <meta name="citation_language" content="en-US" />
   <meta name="dc.relation.ispartof" content="Manubot" />
@@ -99,9 +99,9 @@
   <meta name="citation_fulltext_html_url" content="https://TaylorResearchLab.github.io/bifo-paper-0/" />
   <meta name="citation_pdf_url" content="https://TaylorResearchLab.github.io/bifo-paper-0/manuscript.pdf" />
   <link rel="alternate" type="application/pdf" href="https://TaylorResearchLab.github.io/bifo-paper-0/manuscript.pdf" />
-  <link rel="alternate" type="text/html" href="https://TaylorResearchLab.github.io/bifo-paper-0/v/a6abec751bb8c64820e24b5af36dc87db39e97db/" />
-  <meta name="manubot_html_url_versioned" content="https://TaylorResearchLab.github.io/bifo-paper-0/v/a6abec751bb8c64820e24b5af36dc87db39e97db/" />
-  <meta name="manubot_pdf_url_versioned" content="https://TaylorResearchLab.github.io/bifo-paper-0/v/a6abec751bb8c64820e24b5af36dc87db39e97db/manuscript.pdf" />
+  <link rel="alternate" type="text/html" href="https://TaylorResearchLab.github.io/bifo-paper-0/v/710587a5b33a4cce1ddbeb86b1b58ff4758ac5ec/" />
+  <meta name="manubot_html_url_versioned" content="https://TaylorResearchLab.github.io/bifo-paper-0/v/710587a5b33a4cce1ddbeb86b1b58ff4758ac5ec/" />
+  <meta name="manubot_pdf_url_versioned" content="https://TaylorResearchLab.github.io/bifo-paper-0/v/710587a5b33a4cce1ddbeb86b1b58ff4758ac5ec/manuscript.pdf" />
   <meta property="og:type" content="article" />
   <meta property="twitter:card" content="summary_large_image" />
   <link rel="icon" type="image/png" sizes="192x192" href="https://manubot.org/favicon-192x192.png" />
@@ -118,9 +118,9 @@
 </header>
 <p><small><em>
 This manuscript
-(<a href="https://TaylorResearchLab.github.io/bifo-paper-0/v/a6abec751bb8c64820e24b5af36dc87db39e97db/">permalink</a>)
+(<a href="https://TaylorResearchLab.github.io/bifo-paper-0/v/710587a5b33a4cce1ddbeb86b1b58ff4758ac5ec/">permalink</a>)
 was automatically generated
-from <a href="https://github.com/TaylorResearchLab/bifo-paper-0/tree/a6abec751bb8c64820e24b5af36dc87db39e97db">TaylorResearchLab/bifo-paper-0@a6abec7</a>
+from <a href="https://github.com/TaylorResearchLab/bifo-paper-0/tree/710587a5b33a4cce1ddbeb86b1b58ff4758ac5ec">TaylorResearchLab/bifo-paper-0@710587a</a>
 on April 27, 2026.
 </em></small></p>
 <h2 id="authors">Authors</h2>
@@ -216,16 +216,18 @@ Deanne M. Taylor &lt;taylordm@chop.edu&gt;.</p>
 <p>BIFO defines fourteen entity classes partitioned across two state spaces. The <strong>informational state space</strong> comprises G (genes and genomic features), CH (chromatin states), RNA (transcripts and noncoding RNA), P (proteins), CM (macromolecular complexes), PW (pathways and biological programs), C (cells and cell types), PH (phenotypes), and DS (diseases). The <strong>resource and physical state space</strong> comprises SM (small molecules and metabolites), ION (ions), and MECH (mechanical inputs and physical signals). External perturbations (X) are represented as drivers of system state. Informational flow drives system behavior; resource and physical states constrain admissible transitions but do not themselves carry biological information. This partition is load-bearing: it determines which entities participate in propagation and which gate it.</p>
 <p>Entity classes are populated either by direct type assignment in graphs that carry typed nodes, or by CURIE resolution against the normative two-level mapping that aligns identifiers from standard biomedical ontologies (HGNC, UniProt, Reactome, GO, MONDO, HPO, ChEBI, Cell Ontology, UBERON, and others) to the appropriate BIFO entity class.</p>
 <h4 id="flow-classes">Flow classes</h4>
-<p>BIFO Specification v0.02 defines approximately 53 mechanistic flow classes plus 4 observational flow classes, organized by biological process category: central-dogma transformations (Transcription, Translation), chromatin regulation (Chromatin Control, Epigenetic Modification, Chromatin Topology), RNA-mediated regulation (eight flows including silencing, processing, and stabilization), protein and complex signaling (Signal Transduction, Complex Formation, Pathway Contribution, Protein-DNA Regulation, and others), genetic modulation, small-molecule transformations and signaling, redox and electron transfer, electrochemical signaling, spatial and transport processes (twelve flows including Intracellular Transport, Vesicular Transport, Secretion, Uptake, and the degradation processes), cell-cell communication, cellular state and progression (including the State Progression flow that operationalizes temporal admissibility), mechanotransduction, and phenotype/disease flows. The complete enumeration is provided in [TODO: Table 2, modeled on HSCLO Table 1].</p>
+<p>BIFO Specification v0.02 defines 64 flow classes (60 mechanistic and 4 observational), organized by biological process category: central-dogma transformations (Transcription, Translation), chromatin regulation (Chromatin Control, Epigenetic Modification, Chromatin Topology), RNA-mediated regulation (eight flows including silencing, processing, and stabilization), protein and complex signaling (Signal Transduction, Complex Formation, Pathway Contribution, Protein-DNA Regulation, and others), genetic modulation, small-molecule transformations and signaling, redox and electron transfer, electrochemical signaling, spatial and transport processes (twelve flows including Intracellular Transport, Vesicular Transport, Secretion, Uptake, and the degradation processes), cell-cell communication, cellular state and progression (including the State Progression flow that operationalizes temporal admissibility), mechanotransduction, and phenotype/disease flows. The complete enumeration is provided in [TODO: Table 2, modeled on HSCLO Table 1].</p>
 <h4 id="admissibility-framework">Admissibility framework</h4>
 <p>Admissibility constraints govern all flows. The framework includes seven constraint families: directionality (each directed flow is a distinct biological process with independent admissibility conditions in forward and reverse), state dependence (flow validity depends on entity states such as protein activity, RNA role, chromatin configuration, ion concentration, and small-molecule role), metabolic-model consistency (analyses invoking energetic or metabolic state require inclusion of the relevant biochemical network structure), spatial constraint (flows are inadmissible if source and target occupy incompatible compartments, evaluated against the S entity class), temporal progression (transitions follow <code>state(t) → state(t+1)</code>), non-flow exclusion (hierarchy, identifier, lexical, and purely statistical edges are not information-carrying flows), and contextual admissibility (flow validity may depend on local context such as compartment or cell type rather than global system state).</p>
 <p>Formally, the BIFO conditioning operator <span class="math inline">\(\mathcal{C}\)</span> acts on an input property graph <span class="math inline">\(G = (V, E)\)</span> to produce a conditioned propagation graph <span class="math inline">\(G_\mathcal{C} = (V, E_\mathcal{C})\)</span>, where <span class="math inline">\(E_\mathcal{C} \subseteq E\)</span> is the subset of edges whose flow-class assignment lies in the propagating tier set <span class="math inline">\(F_\text{admissible}\)</span> and whose source and target entity classes are both resolved. The operator depends only on the predicate-to-flow mapping and entity resolution rules, not on graph topology, which is what enables KG-agnosticism.</p>
 <h3 id="graph-conditioning-protocol">Graph conditioning protocol</h3>
 <p>BIFO defines a four-step protocol that converts a raw property graph into a conditioned graph. The protocol is KG-agnostic and applies to any property graph satisfying the BIFO Substrate Assumption (typed nodes and edges with resolvable CURIEs and edge provenance). The four steps are: (1) Entity Class Assignment, in which each node is assigned a BIFO entity class via CURIE resolution or direct type assignment, with unresolvable nodes excluded; (2) Flow Class Assignment and Edge Filtering, in which each edge is assigned a flow class via the predicate-to-flow mapping and filtered against the non-flow exclusion rules and the entity-class admissibility table; (3) State and Spatial Annotation, in which retained nodes and edges are annotated with state and context information sufficient to evaluate admissibility; and (4) Confidence and Provenance Annotation, in which retained edges receive evidence-type and confidence attributes and the weakest-link rule is applied for composite multi-hop paths. KG-specific implementation guides document how each step is performed against a particular graph schema and identifier system.</p>
 <h3 id="ddkg-reference-implementation">DDKG reference implementation</h3>
-<p>The reference instantiation of BIFO targets the Common Fund Data Ecosystem Data Distillery Knowledge Graph (DDKG), which inherits Unified Biomedical Knowledge Graph (UBKG) and Petagraph infrastructure <span class="citation" data-cites="1Fxwv2U6v">[<a href="#ref-1Fxwv2U6v" role="doc-biblioref">1</a>]</span>. Predicate-to-flow-class assignment is configured through <code>bifo_ddkg_mapping.yaml</code> v0.7.1, containing 251 predicate-to-flow entries, 96 explicit non-flow designations, and 46 observational edge definitions across five classification tiers: <code>mechanistic</code> (direct, causal biochemical or molecular events with clear directionality), <code>weak_mechanistic_or_observational</code> (relationships that may reflect mechanism but whose evidence is mixed or correlational), <code>observational</code> (statistical associations without mechanistic grounding), <code>contextual_constraint</code> (spatial or temporal constraints that modify but do not propagate signal), and <code>nonpropagating_context</code> (structural relationships excluded from propagation but retained in the conditioning output). The classification is deliberately conservative: when a predicate has mixed evidence quality across instances, the weaker classification applies, preventing high-confidence mechanistic relationships from being diluted by observational instances of the same predicate type. The DDKG-BIFO Implementation Guide <span class="citation" data-cites="TODO:ddkg-bifo-impl-guide">[<a href="#ref-TODO:ddkg-bifo-impl-guide" role="doc-biblioref"><strong>TODO:ddkg-bifo-impl-guide?</strong></a>]</span> documents the SAB-to-entity-class mapping, the predicate-to-flow assignments, DDKG-specific extensions, and the current implementation status of each conditioning step.</p>
+<p>The reference instantiation of BIFO targets the Common Fund Data Ecosystem Data Distillery Knowledge Graph (DDKG), which inherits Unified Biomedical Knowledge Graph (UBKG) and Petagraph infrastructure <span class="citation" data-cites="1Fxwv2U6v">[<a href="#ref-1Fxwv2U6v" role="doc-biblioref">1</a>]</span>. Predicate-to-flow-class assignment is configured through <code>bifo_mapping.yaml</code> v0.7.1, containing 252 predicate-to-flow entries, 96 explicit non-flow designations, 46 observational edge definitions, and 56 entity-pair overrides that resolve predicate-to-flow assignment when a single predicate maps to different flows depending on the entity classes of its endpoints. Predicates and overrides span five classification tiers: <code>mechanistic</code> (direct, causal biochemical or molecular events with clear directionality), <code>weak_mechanistic_or_observational</code> (relationships that may reflect mechanism but whose evidence is mixed or correlational), <code>observational</code> (statistical associations without mechanistic grounding), <code>contextual_constraint</code> (spatial or temporal constraints that modify but do not propagate signal), and <code>nonpropagating_context</code> (structural relationships excluded from propagation but retained in the conditioning output). The classification is deliberately conservative: when a predicate has mixed evidence quality across instances, the weaker classification applies, preventing high-confidence mechanistic relationships from being diluted by observational instances of the same predicate type. The DDKG-BIFO Implementation Guide <span class="citation" data-cites="TODO:ddkg-bifo-impl-guide">[<a href="#ref-TODO:ddkg-bifo-impl-guide" role="doc-biblioref"><strong>TODO:ddkg-bifo-impl-guide?</strong></a>]</span> documents the SAB-to-entity-class mapping, the predicate-to-flow assignments, the entity-pair overrides, DDKG-specific extensions, and the current implementation status of each conditioning step.</p>
 <h4 id="implementation-status">Implementation status</h4>
-<p>Sections 1 and 2 of the conditioning protocol (entity-class assignment and flow-class assignment / edge filtering) are fully implemented in the DDKG reference pipeline. Sections 3 and 4 (state and spatial annotation, confidence and provenance annotation) are specified normatively but not yet implemented in DDKG v1.0; state-dependent admissibility evaluation and edge-level confidence weighting are planned for future versions. Table [TODO: Table 3] enumerates BIFO flow classes by their instantiation status in the current DDKG build, distinguishing flow classes that are fully instantiated (with predicate count and edge count), partially instantiated (some predicates classified weak-mechanistic or non-propagating), retained but non-propagating (observational and spatial-constraint edges), and not yet instantiated (defined in the specification but lacking any matching predicates in the current DDKG export). The DDKG implementation thus operationalizes a strict subset of the full specification, and Paper 0 reports results from the implemented subset while marking the remaining specification surface as future work.</p>
+<p>Sections 1 and 2 of the conditioning protocol (entity-class assignment and flow-class assignment / edge filtering) are fully implemented in the DDKG reference pipeline. Sections 3 and 4 (state and spatial annotation, confidence and provenance annotation) are specified normatively but not yet implemented in DDKG v1.0; state-dependent admissibility evaluation and edge-level confidence weighting are planned for future versions.</p>
+<p>At the flow-class level, 19 of the 64 flow classes defined in BIFO Specification v0.02 are instantiated in <code>bifo_mapping.yaml</code> v0.7.1 (29.7% of the flow-class surface), with the remaining 45 flow classes (70.3%) defined in the specification but not yet covered by predicates in the current DDKG export. Table 3 enumerates every BIFO flow class by its instantiation status, predicate count, and edge count from the v1.0 benchmark conditioning run, organized by the biological process categories used in the specification. Of the 19 instantiated flow classes, 7 are fully instantiated with all predicates classified <code>mechanistic</code> (Signal Transduction, Signal Termination, Complex Formation, Protein-DNA Regulation, Proteasomal Processing, Intracellular Transport, Molecular → Phenotype), 8 are partially instantiated with mixed mechanistic and weak-mechanistic predicates (Transcription, Translation, Chromatin Topology, Protein Interaction, Pathway Contribution, Genetic Regulatory Modulation, Biochemical Transformation, Perturbational Effect, State Progression, Molecular Signaling), and 2 are retained as non-propagating context (Observational Association at the observational tier; Spatial constraint at the contextual_constraint and nonpropagating_context tiers). Pathway Contribution dominates the propagating-edge surface at 80,200 edges in the benchmark (predicates classified primarily as weak-mechanistic given the mixed evidence quality of curated gene-pathway membership annotations); Signal Transduction and Perturbational Effect contribute the next-largest mechanistic edge volumes at 5,786 and 5,392 respectively.</p>
+<p>The 45 not-yet-instantiated flow classes are concentrated in three areas of biology: most of the cellular state and progression flows (Chromatin → Cell, Functional Transition, Cell Cycle Control, Cell Cycle Constraint), the full RNA-mediated regulation taxonomy (RNA Regulation, RNA Processing, RNA Silencing, RNA Stabilization, and others), and the spatial-and-transport flows beyond Intracellular Transport and Proteasomal Processing (Vesicular Transport, Nuclear Transport, Secretion, Uptake, and others). These gaps reflect both the source-vocabulary composition of the current DDKG export and the v1.0 mapping configuration’s focus on the most heavily used biomedical predicates; they identify concrete extensions for future DDKG builds and for cross-KG implementation guides. The DDKG implementation thus operationalizes a strict subset of the full specification, and Paper 0 reports results from the implemented subset while marking the remaining specification surface as future work.</p>
 <h3 id="use-case-methodology">Use-case methodology</h3>
 <p>We evaluate BIFO at four scales of granularity, ordered from didactic to integrative. Each use case targets a specific claim of the specification and produces evidence at a different level of abstraction.</p>
 <h4 id="synthetic-worked-example-didactic">Synthetic worked example (didactic)</h4>
@@ -238,9 +240,546 @@ Deanne M. Taylor &lt;taylordm@chop.edu&gt;.</p>
 <p>To evaluate the BIFO Specification’s claim of KG-agnosticism, we applied the same four-step conditioning protocol used for DDKG to a second public biomedical knowledge graph satisfying the BIFO Substrate Assumption ([TODO: KG choice; candidates are PrimeKG and Hetionet, decision pending after initial conditioning numbers]). The second-KG conditioning required (1) constructing a KG-specific entity-class mapping table by resolving the new KG’s node-type vocabulary against the normative CURIE-to-entity-class mapping (Section B.1 of the Specification), and (2) extending the predicate-to-flow-class mapping configuration with any predicates present in the new KG but not in <code>bifo_ddkg_mapping.yaml</code> v0.7.1. We report Step 1 coverage (fraction of nodes resolved to a BIFO entity class), Step 2 coverage (fraction of edges retained as admissible), the breakdown of retained edges by flow-class tier, the predicate-mapping gap (predicates in the second KG not yet covered by the normative mapping), and the implications of the gap for the next minor revision of the BIFO Specification.</p>
 <h3 id="pipeline-and-reproducibility">Pipeline and reproducibility</h3>
 <p>All conditioning runs were executed using the <code>bifo-graph</code> reference pipeline, available at <span class="citation" data-cites="TODO:bifo-graph-repo-url">[<a href="#ref-TODO:bifo-graph-repo-url" role="doc-biblioref"><strong>TODO:bifo-graph-repo-url?</strong></a>]</span>. The pipeline operates on edge-list and node-list exports in CSV form; configuration is via YAML mapping files. Random-walk and shortest-path analyses were implemented in Python using NetworkX and SciPy. Path interpretability adjudication used a structured rubric defined in [TODO: Supplementary Methods S3]. Seed values, configuration files, and adjudication rubrics are deposited at [TODO: OSF repository] alongside the conditioning outputs.</p>
+<h2 class="page_break_before" id="tables">Tables</h2>
+<h3 id="table-3-bifo-flow-class-implementation-status-in-ddkg-v1.0">Table 3: BIFO Flow Class Implementation Status in DDKG v1.0</h3>
+<p>Source: <code>bifo_mapping.yaml</code> v0.7.1, parsed against the BIFO Specification v0.02 flow-class taxonomy. Edge counts where available are from the v1.0 benchmark conditioning run <span class="citation" data-cites="TODO:bifo-paper-1-biorxiv">[<a href="#ref-TODO:bifo-paper-1-biorxiv" role="doc-biblioref"><strong>TODO:bifo-paper-1-biorxiv?</strong></a>]</span>. Tier abbreviations: mech = mechanistic; wm = weak_mechanistic_or_observational; obs = observational; ctx = contextual_constraint; npc = nonpropagating_context. A blank in the BIFO Section column repeats the section above. Of 64 flow classes defined in the specification, 19 are instantiated in the v1.0 build (29.7%); the remaining 45 (70.3%) are flagged for future extension as new source vocabularies are integrated and as cross-KG implementation guides surface additional predicates.</p>
+<table style="width:100%;">
+<colgroup>
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr class="header">
+<th>BIFO Section</th>
+<th>Flow Class</th>
+<th>Status</th>
+<th>Predicates</th>
+<th>Edges (v1.0)</th>
+<th>Tier breakdown</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>Central dogma</td>
+<td>Transcription</td>
+<td>Partially instantiated</td>
+<td>9</td>
+<td>1,568</td>
+<td>mech=4, wm=5</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Translation</td>
+<td>Partially instantiated</td>
+<td>9</td>
+<td>—</td>
+<td>mech=5, wm=4</td>
+</tr>
+<tr class="odd">
+<td>Chromatin regulation</td>
+<td>Chromatin Control</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Epigenetic Modification</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Chromatin Topology</td>
+<td>Partially instantiated</td>
+<td>6</td>
+<td>—</td>
+<td>mech=4, wm=2</td>
+</tr>
+<tr class="even">
+<td>RNA-mediated regulation</td>
+<td>RNA Regulation</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>RNA Processing</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Translation Support</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>RNA-RNA Binding</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>RNA Silencing (degradation)</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>RNA Silencing (repression)</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>RNA Stabilization</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>RNA Processing via RNA</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td>Protein/complex signaling</td>
+<td>Signal Transduction</td>
+<td>Fully instantiated</td>
+<td>10</td>
+<td>5,786</td>
+<td>mech=10</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Transient Interaction Signaling</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Complex Formation</td>
+<td>Fully instantiated</td>
+<td>4</td>
+<td>—</td>
+<td>mech=4</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Complex Function</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Protein Interaction</td>
+<td>Partially instantiated</td>
+<td>20</td>
+<td>—</td>
+<td>mech=9, wm=11</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Pathway Contribution</td>
+<td>Partially instantiated</td>
+<td>28</td>
+<td>80,200</td>
+<td>mech=2, wm=24, npc=2</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Protein-DNA Regulation</td>
+<td>Fully instantiated</td>
+<td>1</td>
+<td>—</td>
+<td>mech=1</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Signal Termination</td>
+<td>Fully instantiated</td>
+<td>4</td>
+<td>484</td>
+<td>mech=4</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Negative Feedback</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td>Genetic modulation</td>
+<td>Genetic Regulatory Modulation</td>
+<td>Partially instantiated</td>
+<td>11</td>
+<td>—</td>
+<td>mech=6, wm=2, obs=3</td>
+</tr>
+<tr class="even">
+<td>Small-molecule transformations</td>
+<td>Biochemical Transformation</td>
+<td>Partially instantiated</td>
+<td>24</td>
+<td>—</td>
+<td>mech=23, wm=1</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Metabolic Coupling</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Energetic Constraint</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td>Redox / electron transfer</td>
+<td>Electron Transfer</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Electrochemical Coupling</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Chemiosmotic Coupling</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td>Small-molecule signaling/perturbation</td>
+<td>Molecular Signaling</td>
+<td>Partially instantiated</td>
+<td>1</td>
+<td>—</td>
+<td>wm=1</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Perturbational Effect</td>
+<td>Partially instantiated</td>
+<td>14</td>
+<td>5,392</td>
+<td>mech=8, wm=6</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Metabolic Regime Control</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Nuclear Signaling</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Receptor-Mediated Signaling</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td>Electrochemical signaling</td>
+<td>Ion Channel Flow</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Ionic Propagation</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Electrochemical Signaling</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td>Spatial and transport</td>
+<td>Intracellular Transport</td>
+<td>Fully instantiated</td>
+<td>1</td>
+<td>—</td>
+<td>mech=1</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Vesicular Transport</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Nuclear Transport</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Organelle Targeting</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Compartmental Processing</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Secretion</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Uptake</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Extracellular Transport</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Source-Sink Exchange</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Molecular Degradation</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Proteasomal Processing</td>
+<td>Fully instantiated</td>
+<td>1</td>
+<td>—</td>
+<td>mech=1</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Autophagic Processing</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td>Cell-cell communication</td>
+<td>Cell-Cell Communication</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td>Cellular state and progression</td>
+<td>Chromatin → Cell</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Functional Transition</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Cell Cycle Control</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Cell Cycle Constraint</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>State Progression</td>
+<td>Partially instantiated</td>
+<td>19</td>
+<td>—</td>
+<td>mech=15, wm=4</td>
+</tr>
+<tr class="even">
+<td>Mechanotransduction</td>
+<td>Mechanotransduction</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td>Phenotype and disease</td>
+<td>Cell → Phenotype</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Molecular → Phenotype</td>
+<td>Fully instantiated</td>
+<td>2</td>
+<td>—</td>
+<td>mech=2</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Phenotype Aggregation</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td>Observational</td>
+<td>Observational Inference</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Observational Association</td>
+<td>Non-propagating (observational)</td>
+<td>41</td>
+<td>9,909</td>
+<td>obs=41</td>
+</tr>
+<tr class="even">
+<td></td>
+<td>Spatial Co-localization</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="odd">
+<td></td>
+<td>Multi-omic Integration</td>
+<td>Not yet instantiated</td>
+<td>0</td>
+<td>—</td>
+<td>—</td>
+</tr>
+<tr class="even">
+<td>Spatial constraint (derived)</td>
+<td>Spatial constraint</td>
+<td>Non-propagating (contextual)</td>
+<td>47</td>
+<td>60</td>
+<td>ctx=29, npc=18</td>
+</tr>
+</tbody>
+</table>
 <h2 id="results">Results</h2>
 <h3 id="bifo-ontology-overview">BIFO ontology overview</h3>
-<p>BIFO Specification v0.02 defines fourteen entity classes partitioned across an informational state space (G, CH, RNA, P, CM, PW, C, PH, DS) and a resource and physical state space (SM, ION, MECH), with external perturbations (X) treated as drivers. The flow taxonomy comprises approximately 53 mechanistic flow classes and 4 observational flow classes organized by biological process category (central dogma, chromatin regulation, RNA-mediated regulation, protein and complex signaling, genetic modulation, small-molecule transformations and signaling, redox and electron transfer, electrochemical signaling, spatial and transport, cell-cell communication, cellular state and progression, mechanotransduction, and phenotype/disease). The admissibility framework comprises seven constraint families: directionality, state dependence, metabolic-model consistency, spatial constraint, temporal progression, non-flow exclusion, and contextual admissibility.</p>
+<p>BIFO Specification v0.02 defines fourteen entity classes partitioned across an informational state space (G, CH, RNA, P, CM, PW, C, PH, DS) and a resource and physical state space (SM, ION, MECH), with external perturbations (X) treated as drivers. The flow taxonomy comprises 64 flow classes (60 mechanistic and 4 observational) organized by biological process category (central dogma, chromatin regulation, RNA-mediated regulation, protein and complex signaling, genetic modulation, small-molecule transformations and signaling, redox and electron transfer, electrochemical signaling, spatial and transport, cell-cell communication, cellular state and progression, mechanotransduction, and phenotype/disease). The admissibility framework comprises seven constraint families: directionality, state dependence, metabolic-model consistency, spatial constraint, temporal progression, non-flow exclusion, and contextual admissibility.</p>
 <p>The hierarchical organization of entity classes, flow classes, and admissibility constraints is summarized schematically in [TODO: Fig 1, modeled on HSCLO Fig 1]. A complete enumeration of BIFO entity classes with state attributes and CURIE namespaces is provided in [TODO: Table 1]. The flow-class taxonomy organized by biological process category is provided in [TODO: Table 2]. The four-step conditioning protocol is illustrated in [TODO: Fig 2]. The implementation status of each flow class in the DDKG reference build is summarized in [TODO: Table 3].</p>
 <h3 id="synthetic-worked-example-bifo-conditioning-of-a-small-property-graph">Synthetic worked example: BIFO conditioning of a small property graph</h3>
 <p>To illustrate the conditioning protocol on a graph small enough to inspect directly, we constructed a synthetic property graph of [TODO: precise node count after design freeze] nodes spanning genes, transcripts, proteins, pathways, phenotypes, and a disease term, with a deliberate mix of admissible mechanistic edges and non-admissible edges (<code>is_a</code>, <code>part_of</code>, lexical <code>label</code>, statistical <code>co_expressed_with</code>).</p>
